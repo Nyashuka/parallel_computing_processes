@@ -1,0 +1,16 @@
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\bin\Debug\net5.0\lab1_sharp.exe
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\bin\Debug\net5.0\lab1_sharp.deps.json
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\bin\Debug\net5.0\lab1_sharp.runtimeconfig.json
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\bin\Debug\net5.0\lab1_sharp.runtimeconfig.dev.json
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\bin\Debug\net5.0\lab1_sharp.dll
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\bin\Debug\net5.0\lab1_sharp.pdb
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.csproj.AssemblyReference.cache
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.AssemblyInfoInputs.cache
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.AssemblyInfo.cs
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.csproj.CoreCompileInputs.cache
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.dll
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\refint\lab1_sharp.dll
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.pdb
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\lab1_sharp.genruntimeconfig.cache
+C:\programming\home_work\parallel_computing_processes\lab1\lab1_sharp\lab1_sharp\obj\Debug\net5.0\ref\lab1_sharp.dll
