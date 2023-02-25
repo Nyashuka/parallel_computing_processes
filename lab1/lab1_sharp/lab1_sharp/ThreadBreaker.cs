@@ -17,14 +17,16 @@ namespace lab1_sharp
         {
             new Thread(() =>
             {
+
                 Thread.Sleep(_sleepTime);
                 _canBreak = true;
-            }).Start();        
+
+            }).Start();
         }
 
         public bool CanBreak()
         {
-            lock(this)
+            lock (this)
             {
                 return _canBreak;
             }

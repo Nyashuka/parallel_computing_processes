@@ -20,6 +20,6 @@ public class Worker extends Thread
             sum++;
             isStopped = _threadBreaker.CanBreak();
         } while (!isStopped);
-        System.out.println(_id + " - " + sum);
+        System.out.println("id: " + _id + " - " + sum);
     }
 }

@@ -6,18 +6,17 @@ namespace lab1_sharp
     public class Worker 
     {
         private readonly int _id;
-        private readonly ThreadBreaker _threadBreaker;
+        private readonly SuperThreadBreaker _threadBreaker;
 
-        public Worker(int id, int lifeTimeInSeconds)
+        public Worker(int id, SuperThreadBreaker breaker)
         {
             _id = id;
-            _threadBreaker = new ThreadBreaker(lifeTimeInSeconds * 1000);
+            _threadBreaker = breaker;
         }
 
 
         public void Run()
-        {
-            _threadBreaker.Run();
+        {        
             new Thread(() => 
             {
                 long sum = 0;
@@ -25,7 +24,7 @@ namespace lab1_sharp
                 do
                 {
                     sum++;
-                    isStopped = _threadBreaker.CanBreak();
+                    isStopped = _threadBreaker.CanBreak(_id);
                 } while (!isStopped);
                 Console.WriteLine(_id + " - " + sum);
             }).Start();        

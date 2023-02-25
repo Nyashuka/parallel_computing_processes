@@ -6,14 +6,25 @@ namespace lab1_sharp
     {
         static void Main(string[] args)
         {
-            Worker[] workers = new Worker[9];
-            Random random = new Random(); 
+            int workersCount = 5;
+            int[] sleepTime = new int[workersCount];
 
-            for (int i = 0; i < workers.Length; i++)
+            for (int i = 0; i < workersCount; i++)
             {
-                workers[i] = new Worker(i, random.Next(3, 9));
+                sleepTime[i] = 5000;
+            }
+
+            SuperThreadBreaker breaker = new SuperThreadBreaker(sleepTime);
+            Worker[] workers = new Worker[workersCount];
+
+            for (int i = 0; i < workersCount; i++)
+            {
+                workers[i] = new Worker(i, breaker);
                 workers[i].Run();
             }
+
+            breaker.Run();
+
         }
     }
 }
