@@ -6,7 +6,7 @@ namespace lab1_sharp
     {
         private volatile bool[] _canBreak;
         private volatile int[] _sleepTime;
-        private const int WHAIT_PER_TICK = 100;
+        private const int WAIT_PER_TICK = 100;
 
         public SuperThreadBreaker(int[] sleepTime)
         {
@@ -22,7 +22,7 @@ namespace lab1_sharp
                 {
                     bool ended = true;
 
-                    Thread.Sleep(WHAIT_PER_TICK);
+                    Thread.Sleep(WAIT_PER_TICK);
 
                     for (int i = 0; i < _sleepTime.Length; i++)
                     {
@@ -30,7 +30,7 @@ namespace lab1_sharp
                             continue;
 
                         ended = false;
-                        _sleepTime[i] -= WHAIT_PER_TICK;
+                        _sleepTime[i] -= WAIT_PER_TICK;
                         
 
                         if (_sleepTime[i] <= 0)

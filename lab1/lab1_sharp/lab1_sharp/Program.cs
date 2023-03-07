@@ -7,12 +7,7 @@ namespace lab1_sharp
         static void Main(string[] args)
         {
             int workersCount = 5;
-            int[] sleepTime = new int[workersCount];
-
-            for (int i = 0; i < workersCount; i++)
-            {
-                sleepTime[i] = 5000;
-            }
+            int[] sleepTime = { 5000,6000,7000,5000,4000,6000,7000,6000,9000};
 
             SuperThreadBreaker breaker = new SuperThreadBreaker(sleepTime);
             Worker[] workers = new Worker[workersCount];
@@ -24,7 +19,6 @@ namespace lab1_sharp
             }
 
             breaker.Run();
-
         }
     }
 }
