@@ -45,7 +45,7 @@ procedure Main is
       end Init;
       loop
          steps_count := steps_count + 1;
-         sum := sum + steps_count * step;
+         sum := sum + step;
          exit when can_stop(id);
       end loop;
       Ada.Text_IO.Put_Line ("Id: " & Id'Img & " | steps: " & steps_count'Img & " | sum: " & sum'Img);
