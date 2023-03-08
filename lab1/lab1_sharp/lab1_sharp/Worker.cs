@@ -26,6 +26,7 @@ namespace lab1_sharp
                     sum++;
                     isStopped = _threadBreaker.CanBreak(_id);
                 } while (!isStopped);
+
                 Console.WriteLine(_id + " - " + sum);
             }).Start();        
         }

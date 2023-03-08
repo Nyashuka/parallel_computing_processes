@@ -6,7 +6,7 @@ namespace lab1_sharp
     {
         private volatile bool[] _canBreak;
         private volatile int[] _sleepTime;
-        private const int WAIT_PER_TICK = 100;
+        private const int WAIT_PER_TICK = 10;
 
         public SuperThreadBreaker(int[] sleepTime)
         {
@@ -30,8 +30,7 @@ namespace lab1_sharp
                             continue;
 
                         ended = false;
-                        _sleepTime[i] -= WAIT_PER_TICK;
-                        
+                        _sleepTime[i] -= WAIT_PER_TICK; 
 
                         if (_sleepTime[i] <= 0)
                         {
